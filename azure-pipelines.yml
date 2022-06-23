@@ -8,7 +8,7 @@ steps:
 - task: AzureKeyVault@2
   displayName: Get Secrets from Key Vault
   inputs:
-    azureSubscription: 'Pay-As-You-Go (0da7ae55-f78b-410c-90fb-cef156b34a60)'
+    azureSubscription: 'mithun-app'
     KeyVaultName: 'keyvault020'
     SecretsFilter: '*'
     RunAsPreJob: false
