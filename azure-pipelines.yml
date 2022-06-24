@@ -8,7 +8,7 @@ steps:
 - task: AzureKeyVault@2
   displayName: Get Secrets from Key Vault
   inputs:
-    azureSubscription: 'mithun-app'
+    azureSubscription: 'spn-keyvault-connection'
     KeyVaultName: 'keyvault020'
     SecretsFilter: '*'
     RunAsPreJob: false
